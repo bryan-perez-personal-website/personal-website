@@ -1,4 +1,8 @@
-body{
+    html{
+        color: white; 
+    }
+
+    body{
     background:url(background.jpg) no-repeat;
     background-size: cover;
     position: relative;
@@ -21,8 +25,7 @@ body{
         width: 15vw;
         text-align: center;
         margin: auto;
-        margin-top: 1vw;
-        color: white;
+        margin-top: 5%;
     }
     .profile-img{
         border-radius: 50%;
@@ -35,8 +38,7 @@ body{
         margin-top: 1vw;
     }
     .social-icons a{
-        color: white;
-        font-size: 3vw;
+        font-size: 50px;
     }
     .about-img{
         max-width: 20vw;
@@ -54,7 +56,7 @@ body{
         width: 70%;
     }
     .text-box{
-        color: white;
+        color: #b3f2ff; /*use a different color*/
     }
     .text-box h2{
         font-size: 2vw;
@@ -69,3 +71,4 @@ body{
         border-radius: 2vw;
         margin-right: 1vw;
     }
+    
