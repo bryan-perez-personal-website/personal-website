@@ -106,4 +106,9 @@
     #submit:hover {
         background-color: darkgrey;
       }
+      @media (max-width: 500px) {
+        body {
+            color: red;
+        }
+      }
     
