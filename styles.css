@@ -21,6 +21,9 @@
         padding: 0 1.5rem;
         flex: 1;
     }
+    .nav-items:hover {
+        background-color: yellow;
+      }
     .info-body{
         width: 15vw;
         text-align: center;
@@ -39,6 +42,7 @@
     }
     .social-icons a{
         font-size: 50px;
+        color: white;
     }
     .about-img{
         max-width: 20vw;
@@ -71,4 +75,26 @@
         border-radius: 2vw;
         margin-right: 1vw;
     }
+    #form{
+        display: flex;
+        flex-direction: column
+    }
+    .formInput{
+        margin: 1rem;
+        align-self: center;
+        color: white;
+        border: 1px solid black;
+        background-color: black;
+    }
+    #submit{
+        margin-top: 1rem;
+        padding: 1rem;
+        width: 10%;
+        align-self: center;
+        background-color: black;
+        color: white;
+    }
+    #submit:hover {
+        background-color: grey;
+      }
     
